@@ -1,0 +1,16 @@
+<!--The whole content below can be removed with the new code.-->
+<div style="text-align:center">
+  <h1>
+  Bienvenido {{title}} by {{author}}
+  <app-mi-componente></app-mi-componente>
+  </h1>
+  <img [src]="imageSource">
+  <br>
+  <br>
+  <button (click)="count = count + 1" >Dame un clic</button>
+  <br><br>
+  Has precionado el boton {{count}}
+  <br><br>
+  <button (click)="change()" >{{buttonText}}</button>
+  <input type="text" [disabled]="enabled">
+</div>
